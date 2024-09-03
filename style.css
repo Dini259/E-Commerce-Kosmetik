@@ -1,0 +1,386 @@
+*{
+margin: 0;
+padding:0;
+box-sizing: border-box;
+}
+
+
+
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 4%;
+    background-color: brown;
+
+}
+
+.burgerMenu .div{
+  width: 30px;
+  height: 4px;
+  background-color: white;
+  margin-top: 5px;
+}
+
+.burgerMenu{
+  position:absolute;
+  right:20px;
+  top:20px;
+}
+
+.navigation ul li{
+    display: inline;
+
+    margin-right: 30px;
+}
+
+
+.sci ul li{
+    display: inline;
+
+    margin-right: 30px;
+}
+
+/* ini bagian hero */
+.hero{
+    background-image: url(assets/img/hero.png);
+    height:900px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 2rem 9%;
+    
+}
+
+.hero p{
+    color: brown;
+
+
+}
+ .hero h1{
+    color: white;
+    font-size: 50px;
+ }
+
+ .hero button{
+    background-color: brown;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border:none;
+
+ }
+
+ /* INI BAGEAN KATEGORI */
+ .title{
+    text-align: center;
+ }
+
+ .kategori{
+    padding:20px;
+ }
+
+ .kategoricontent{
+    padding: 2rem 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+ }
+
+
+ .kategoricontent .card{
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+ }
+
+ .kategoricontent .card button{
+    background-color: brown;
+    margin-top: 30px;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border:none;
+ }
+
+ .koleksi .card{
+    background-image: url(assets/img/banner1.jpg);
+    height: 400px;
+    width: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    align-items: flex-end;
+    padding: 30px;
+ }
+
+ .koleksi .card .text button{
+    background-color: brown;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border:none;
+    margin-top: 30px;
+
+ }
+
+ .koleksi .card2{
+    background-image: url(assets/img/banner2.jpg);
+    height: 400px;
+    width: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    align-items: flex-end;
+    padding: 30px;
+ }
+
+ .koleksi .card3{
+    background-image: url(assets/img/banner1.jpg);
+    height: 400px;
+    width: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    align-items: flex-end;
+    padding: 30px;
+ }
+
+ .koleksi{
+    display: flex;
+ }
+
+ .koleksi .card2 .text button{
+    background-color: brown;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border:none;
+    margin-top: 30px;
+ }
+
+
+ .koleksi .card3 .text button{
+    background-color: brown;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border:none;
+    margin-top: 30px;
+ }
+
+ /* ini untuk styling produk*/
+
+ .produk .kategori ul li{
+   display: inline;
+   margin-right: 30px;
+ }
+
+ .produk button{
+   padding: 10px 20px;
+   border: none;
+   border-radius: 30px;
+   cursor: pointer;
+   margin-top: 30px;
+ }
+
+ .produk button:hover{
+   background-color: brown;
+ }
+
+ .produk .kategori{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+ }
+
+
+ .produk{
+   margin-top: 50px;
+ }
+
+ .kontenkategori{
+    padding: 2rem 5%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 50px;
+ }
+
+ .kontenkategori .card{
+   width:250px;
+   overflow: hidden;
+   cursor: pointer;
+ }
+
+ .kontenkategori .card h1{
+   font-weight: lighter;
+ }
+
+ .kontenkategori .card i{
+   color: brown;
+ }
+
+
+ .kontenkategori .rating{
+   margin: 10px 0;
+ }
+
+ .kontenkategori h3{
+   font-weight: lighter;
+ }
+
+ .kontenkategori .card:hover{
+   border: 1px solid brown;
+ }
+
+ .kontenkategori .card .img,
+ .kontenkategori .card .img img{
+   width: 100%;
+ }
+
+
+ .kontenkategori .card .text{
+   margin-top: 50px;
+   padding-bottom: 20px;
+ }
+
+ .kontenkategori .card:hover img{
+   transform: scale(1.2);
+   transition: .5s;
+ }
+
+.testimonial {
+   background-color: rgb(161, 88, 88);
+   height: 1000px;
+}
+
+.testimonial .title{
+   display: inline;
+  padding: 100px;
+}
+
+.testimonial{
+   text-align: center;
+}
+ .testimonial img{
+   border-radius: 50%;
+   border: 5px solid brown;
+ }
+
+ .produk{
+   margin-top: 50px;
+
+ }
+
+ .fashion{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin-top: 60px;
+ }
+
+ .fashion .card{
+   width: 48%;
+   overflow: hidden;
+   cursor: pointer;
+ }
+  
+ .fashion img{
+   width: 100%;
+ }
+ 
+ .fashion .card:hover img{
+   transform: scale(1.1);
+   transition: .5s;
+ }
+
+ .blog{
+   margin-top: 60px;
+   padding: 2rem 5%;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+ }
+
+ .blog .card{
+   width: 300px;
+   border: 1px solid gray;
+   height: 500px;
+ }
+
+ .blog .card .cardText{
+   padding: 10px;
+ }
+
+ .blog img{
+   width: 100%;
+   height: 370px;
+
+ }
+
+ footer{
+   display: flex;
+   justify-content: space-between;
+   margin-top: 60px;
+   background-color: black;
+   color: white;
+   padding: 5rem 5%;
+ }
+
+ footer a{
+   color:white;
+   text-decoration: none;
+ }
+
+ footer ul li{
+   margin-top: 20px;
+   list-style: none;
+ }
+
+
+ @media (max-width:480px) {
+  .navigation,
+  .sci{
+    display: none;
+  }
+
+    .hero{
+      justify-content: center;
+      text-align: center;
+    }
+
+    .kategoricontent{
+      flex-wrap: wrap;
+      justify-content: center;
+
+    }
+
+    .kategoricontent .card{
+      width: 150px;
+      margin-top: 50px;
+    }
+
+    .koleksi{
+      flex-wrap: wrap;
+      
+    }
+
+    .koleksi .card{
+      width: 100%;
+      margin-top: 10px;
+    }
+ }
+
