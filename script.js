@@ -21,3 +21,12 @@ var swiper = new Swiper(".mySwiper",{
     
     },
 });        
+
+
+
+let burgerMenu = document.querySelector(".burgerMenu");
+let sidebar = document.querySelector(".sidebar");
+
+burgerMenu.addEventListener('click',function(){
+    sidebar.classList.toggle('active');
+})
