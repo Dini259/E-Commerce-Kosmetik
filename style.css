@@ -350,6 +350,67 @@ box-sizing: border-box;
    list-style: none;
  }
 
+.banner{
+  
+  background-image: url(hero.png);
+    height: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 9%;
+    text-align: center;
+    position: relative;
+}
+
+.banner::after{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0,.5);
+  height: 100%;
+}
+
+.details{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 2rem 5%;
+}
+
+.detailsImage,
+.detailsText{
+  width: 48%;
+}
+
+.detailsImage img{
+  width: 100%;
+}
+
+.detailsText p{
+  margin-top: 10px;
+}
+
+.detailsText button{
+  background-color: brown;
+  padding: 10px 20px;
+  border-radius: 20px;
+  border:none;
+  cursor: pointer;
+  color: white;
+}
+
+.detailsText input{
+  padding: 10px 20px;
+  margin-top: 10px;
+  border: 1px solid gray;
+  outline: none;
+}
+
 
  @media (max-width:480px) {
   .navigation,
@@ -408,6 +469,18 @@ box-sizing: border-box;
 
     footer .card{
       width: 50%;
+    }
+
+     .details{
+      flex-wrap: wrap;      
+    }
+    .detailsImage,
+    .detailsText{
+      width: 100%;
+    }
+
+    .detailsText{
+      margin-top: 40px;
     }
  }
 
